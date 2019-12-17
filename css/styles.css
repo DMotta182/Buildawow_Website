@@ -1,0 +1,162 @@
+/* Color palette
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+    --buildawow-darkblue: #20242F;
+    --buildawow-pink: #FF3650;
+    
+}
+
+/* General Styles
+-------------------------------------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #20242F;
+    
+} 
+
+
+h1,
+h2,
+h3,
+p,
+a,
+.btn{
+  font-family: 'Heebo', sans-serif;    
+}
+
+
+h1, a{
+    color: #fff; 
+}
+
+.btn{
+    color: #fff;
+}
+
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:hover{
+    background-color: var(--buildawow-pink);
+    color: #fff;
+}
+
+.centered{
+    text-align: center;
+}
+
+
+/* --- Navbar ------------------------------ */
+
+nav {
+    position: fixed;
+    padding: 3% 3%;
+}
+
+nav a{
+    color: #fff;
+    font-size: 25px; 
+    font-weight: 300;
+}
+
+.brand-logo{
+  margin: 2% 2%;        
+  height: 134px;
+  width: 147px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.beta-tag{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -10px;
+    font-size: 14px;
+}
+
+
+/* Background and main text ------------------- */
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container-content{
+    width: 100vw;
+    position: relative;
+    top: 35%;
+    transform: perspective(1px) translateY(-50%);    
+}
+
+.background-image{
+    width: 90%;
+    margin-left: 15%;
+    margin-top: -10%;
+    display: inline;
+    position: absolute;
+    z-index: -1;
+}
+
+.main-text h1{
+    margin-top: 70px;
+    font-weight: 900;
+    font-size: 80px;
+}
+
+
+.btn-worktogether {
+    background-color: var(--buildawow-pink);
+    border: none;
+    border-radius: 0;
+    margin-top: 40px;
+}
+
+
+/* Buildawow Footer --------------------- */
+.footer-background{
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+
+.underline-first-footer hr{
+    margin-top: 30px;
+    margin-bottom: 52px;
+    border: 1.25px solid #C8C8C8;
+}
+
+.underline-second-footer hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1.25px solid #C8C8C8;    
+}
+
+.social-footer{
+    text-align: right;
+}
+
+.social-icon-footer{
+    width: 30px;
+}
+
+a social-icon-footer:hover{
+    text-decoration: none;
+}
+
+.text-footer{
+    text-align: center;
+}
+
+
+

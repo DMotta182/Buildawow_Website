@@ -1,0 +1,196 @@
+/* Color palette
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+    --buildawow-darkblue: #20242F;
+    --buildawow-pink: #FF3650;
+    
+}
+
+/* General Styles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+* {
+  box-sizing: border-box;
+}
+html {
+    font-family: 'Quicksand', sans-serif;  
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p,
+a,
+.btn{
+  font-family: 'Quicksand', sans-serif;    
+}
+
+.centered{
+    text-align: center;
+}
+
+.sub-underline{
+    max-width: 80px;
+}
+
+.sub-underline hr{
+    border: 1.25px solid var(--buildawow-pink);
+    margin-top: -15px;
+    margin-left: -20px;
+}    
+
+.sub-title h1{
+    margin-top: 100px;
+    color: var(--buildawow-pink);
+    font-size: 4em;
+    font-size: bold;
+}
+
+.btn{
+    color: #fff;
+}
+
+
+.btn:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:hover{
+    background-color: var(--buildawow-pink);
+    color: #fff;
+}
+
+.btn-worktogether {
+    background-color: var(--buildawow-pink);
+    border-radius: 0;
+    border: none;
+}
+
+
+/* --- Navbar ------------------------------ */
+
+nav {
+    position: fixed;
+    padding: 3% 3%;
+}
+
+nav a{
+    color: #000;
+    font-size: 25px;   
+}
+
+.brand-logo{
+  height: 134px;
+  width: 147px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.beta-tag{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: -10px;
+    font-size: 14px;
+}
+
+/* Landing Section -------------------------*/
+
+.main {
+    background-image: url("../images/aboutus-background.png");
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.container-first-section{
+    position: relative;
+    top: 35%;
+    transform: perspective(1px) translateY(-50%);
+}
+
+.main-text-first h1{
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.underline-top hr{
+    margin-top: 30px;
+    border: 1.25px solid var(--buildawow-pink);
+}
+
+.secondary-text-first{
+    margin-top: 30px;
+    font-size: 0.75em;
+    text-align: center;
+}
+
+.button-first{
+    margin-top: 50px;
+    margin: 50px 0px 10%;
+}
+
+
+/* Our Story & Team Section -----------------*/
+
+.background-image{
+    position: relative;
+    width: 6%;
+    margin-left: 49%;
+}
+
+.path-ourstory{
+    position: absolute;
+    width: 100%;
+}
+
+.ourstory-content{
+    margin-top: 20px;
+}
+
+.team-grid{
+    margin: 0;
+    padding: 0;
+}
+.team-picture{
+    width: 300px;
+    margin: 0 0 0 0;
+    padding: 0 0 0;
+}
+
+
+
+/* Buildawow Footer --------------------- */
+.footer-container{
+    margin-top: 70px;
+}
+
+.underline-first-footer hr{
+    margin-top: 30px;
+    margin-bottom: 52px;
+    border: 1.25px solid #C8C8C8;
+}
+
+.underline-second-footer hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1.25px solid #C8C8C8;    
+}
+
+.social-footer{
+    text-align: right;
+}
+
+.social-icon-footer{
+    width: 30px;
+}
+
+.text-footer{
+    text-align: center;
+}
